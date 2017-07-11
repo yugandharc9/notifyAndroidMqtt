@@ -24,9 +24,9 @@ MqttAndroidClient client;
         setContentView(R.layout.activity_main);
         String clientId = MqttClient.generateClientId();
         MqttConnectOptions opt=new MqttConnectOptions();
-        opt.setUserName("yugandharc9");
+        opt.setUserName("USRNAME");
         System.out.println("123123123");
-        opt.setPassword("Qq1-yugan".toCharArray());
+        opt.setPassword("PASS".toCharArray());
         opt.setCleanSession(true);
         client =
                 new MqttAndroidClient(this.getApplicationContext(), "tcp://www.alpha.primemq.com:8721",
