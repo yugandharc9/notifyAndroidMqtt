@@ -35,9 +35,9 @@ MqttAndroidClient client;
             public void onClick(View view) {
 
                 MqttConnectOptions opt=new MqttConnectOptions();
-                opt.setUserName("yugandharc9");
+                opt.setUserName("USERNAME");
                 System.out.println("123123123");
-                opt.setPassword("Qq1-yugan".toCharArray());
+                opt.setPassword("PASSWORD".toCharArray());
                 opt.setCleanSession(true);
 
                 try {
